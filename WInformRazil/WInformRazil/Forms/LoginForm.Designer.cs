@@ -32,7 +32,7 @@
             lbl_AccountInformation = new Label();
             checkBox_ShowPassword = new CheckBox();
             lbl_PasswordInformation = new Label();
-            label1 = new Label();
+            lbl_loginBaslig = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -126,14 +126,14 @@
             lbl_PasswordInformation.TabIndex = 9;
             lbl_PasswordInformation.Text = "Forget Password?";
             // 
-            // label1
+            // lbl_loginBaslig
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(717, 49);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 10;
-            label1.Text = "label1";
+            lbl_loginBaslig.AutoSize = true;
+            lbl_loginBaslig.Location = new Point(717, 49);
+            lbl_loginBaslig.Name = "lbl_loginBaslig";
+            lbl_loginBaslig.Size = new Size(197, 20);
+            lbl_loginBaslig.TabIndex = 10;
+            lbl_loginBaslig.Text = "Library Management System";
             // 
             // pictureBox1
             // 
@@ -150,7 +150,7 @@
             BackColor = Color.Orange;
             ClientSize = new Size(958, 376);
             Controls.Add(pictureBox1);
-            Controls.Add(label1);
+            Controls.Add(lbl_loginBaslig);
             Controls.Add(lbl_PasswordInformation);
             Controls.Add(checkBox_ShowPassword);
             Controls.Add(lbl_AccountInformation);
@@ -200,7 +200,7 @@
         private Label lbl_AccountInformation;
         private CheckBox checkBox_ShowPassword;
         private Label lbl_PasswordInformation;
-        private Label label1;
+        private Label lbl_loginBaslig;
         private PictureBox pictureBox1;
     }
 }

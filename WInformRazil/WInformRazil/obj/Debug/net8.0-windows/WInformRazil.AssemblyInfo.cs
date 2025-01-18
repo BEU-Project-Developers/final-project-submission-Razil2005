@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WInformRazil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+841dc4a11565b8b349d79cf927df997514b99359")]
 [assembly: System.Reflection.AssemblyProductAttribute("WInformRazil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WInformRazil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
